@@ -6,8 +6,15 @@
 //  Copyright © 2016 Wowwee. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <WowweeRoboRemoteSDK/WowweeRoboRemoteSDK.h>
+#import "ConstantsDefinition.h"
 
-@interface ConnectionViewController : UIViewController
+@interface ConnectionViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, RoboraptorRobotDelegate, RobosapienRobotDelegate>
+{
+}
+
+- (IBAction)refreshButtonPressed:(id)sender;
+
+@property (nonatomic, weak) IBOutlet UITableView* tableView;
 
 @end

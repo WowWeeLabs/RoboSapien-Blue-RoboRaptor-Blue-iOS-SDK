@@ -1,0 +1,6 @@
+framework module WowweeRoboRemoteSDK {
+  umbrella header "WowweeRoboRemoteSDK.h"
+
+  export *
+  module * { export * }
+}
