@@ -1,7 +1,7 @@
 WowWee RoboSapien Blue RoboRaptor Blue iOS SDK
 ================================
 
-![](Images/sapien.png)![](Images/raptor.png)
+![](images/sapien.png)![](images/raptor.png)
 
 The free RoboSapien Blue RoboRaptor Blue iOS SDK lets you control your [WowWee RoboSapien](http://wowwee.com/robosapien-blue) and [WowWee RoboRaptor](http://wowwee.com/roboraptor-blue) on devices running iOS 8.0 and above and Xcode 6. To use this SDK you will also need a physical RoboSapien robot or RoboRaptor robot.
 
@@ -30,15 +30,15 @@ Quick Installation
 
 3. Open the project navigator in Xcode and drag the **WowweeSnappetSDK.framework** file from the Mac OS Finder to the Frameworks directory for your project in XCode.
 
-![](Images/Project-Navigator-Example.png)
+![](images/Project-Navigator-Example.png)
 
 4. Confirm that the framework is added to your project by going into _Project Settings_ (first item in the project navigator), then click the first target (e.g. _SnapPetSampleProject_), then _Build Phases_. If there is not a _"Embed Frameworks"_ phase., click the top left + to add one. Set the destination to _"Frameworks"_ and add the framework file under the _"Name"_ section.
 
-![](Images/Copy-Framework-Example.png)
+![](images/Copy-Framework-Example.png)
 
 Also make that the framework is present under the _"Link Binary With Libraries"_ section.
 	
-![](Images/Link-Frameworks-Example.png)
+![](images/Link-Frameworks-Example.png)
 
 5. In the ViewController.h file, add the following line at the top of the file:
 
